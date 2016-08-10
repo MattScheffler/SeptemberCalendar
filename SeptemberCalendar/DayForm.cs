@@ -1,14 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
-using System.Xml;
 
 namespace SeptemberCalendar
 {
@@ -19,6 +11,7 @@ namespace SeptemberCalendar
             InitializeComponent();
         }
 
+        //close the form, if the user added information update the setting to change button colors on the main form
         private void buttonCloseDayForm_Click(object sender, EventArgs e)
         {
             if (richTextBox.Text != string.Empty)
@@ -29,6 +22,7 @@ namespace SeptemberCalendar
             this.Close();
         }
 
+        //load the XML document to save the information in the correct day
         private void buttonSave_Click(object sender, EventArgs e)
         {
             var root = XElement.Load("SeptemberData.xml");
@@ -40,6 +34,7 @@ namespace SeptemberCalendar
             root.Save("SeptemberData.xml");
         }
 
+        //load the user input for the day if any exists already
         private void DayForm_Load(object sender, EventArgs e)
         {
             var root = XElement.Load("SeptemberData.xml");

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.labelThursday = new System.Windows.Forms.Label();
             this.labelFriday = new System.Windows.Forms.Label();
@@ -57,7 +58,6 @@
             this.button20 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
@@ -74,6 +74,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -104,6 +105,7 @@
             // labelThursday
             // 
             this.labelThursday.AutoSize = true;
+            this.labelThursday.BackColor = System.Drawing.SystemColors.HighlightText;
             this.labelThursday.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelThursday.Location = new System.Drawing.Point(599, 21);
             this.labelThursday.Name = "labelThursday";
@@ -114,6 +116,7 @@
             // labelFriday
             // 
             this.labelFriday.AutoSize = true;
+            this.labelFriday.BackColor = System.Drawing.SystemColors.HighlightText;
             this.labelFriday.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelFriday.Location = new System.Drawing.Point(762, 21);
             this.labelFriday.Name = "labelFriday";
@@ -124,6 +127,7 @@
             // labelSaturday
             // 
             this.labelSaturday.AutoSize = true;
+            this.labelSaturday.BackColor = System.Drawing.SystemColors.HighlightText;
             this.labelSaturday.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSaturday.Location = new System.Drawing.Point(891, 21);
             this.labelSaturday.Name = "labelSaturday";
@@ -134,6 +138,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label4.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(444, 21);
             this.label4.Name = "label4";
@@ -144,6 +149,7 @@
             // labelTuesday
             // 
             this.labelTuesday.AutoSize = true;
+            this.labelTuesday.BackColor = System.Drawing.SystemColors.HighlightText;
             this.labelTuesday.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTuesday.Location = new System.Drawing.Point(315, 21);
             this.labelTuesday.Name = "labelTuesday";
@@ -154,6 +160,7 @@
             // labelMonday
             // 
             this.labelMonday.AutoSize = true;
+            this.labelMonday.BackColor = System.Drawing.SystemColors.HighlightText;
             this.labelMonday.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMonday.Location = new System.Drawing.Point(167, 21);
             this.labelMonday.Name = "labelMonday";
@@ -164,6 +171,7 @@
             // labelSunday
             // 
             this.labelSunday.AutoSize = true;
+            this.labelSunday.BackColor = System.Drawing.SystemColors.HighlightText;
             this.labelSunday.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSunday.Location = new System.Drawing.Point(23, 21);
             this.labelSunday.Name = "labelSunday";
@@ -173,6 +181,7 @@
             // 
             // splitter7
             // 
+            this.splitter7.BackColor = System.Drawing.SystemColors.HighlightText;
             this.splitter7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitter7.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.splitter7.Enabled = false;
@@ -184,6 +193,7 @@
             // 
             // splitter6
             // 
+            this.splitter6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.splitter6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitter6.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.splitter6.Enabled = false;
@@ -195,6 +205,7 @@
             // 
             // splitter5
             // 
+            this.splitter5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.splitter5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitter5.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.splitter5.Enabled = false;
@@ -206,6 +217,7 @@
             // 
             // splitter4
             // 
+            this.splitter4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.splitter4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitter4.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.splitter4.Enabled = false;
@@ -217,6 +229,7 @@
             // 
             // splitter3
             // 
+            this.splitter3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.splitter3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitter3.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.splitter3.Enabled = false;
@@ -228,6 +241,7 @@
             // 
             // splitter2
             // 
+            this.splitter2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.splitter2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitter2.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.splitter2.Enabled = false;
@@ -239,6 +253,7 @@
             // 
             // splitter1
             // 
+            this.splitter1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.splitter1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitter1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.splitter1.Enabled = false;
@@ -251,6 +266,7 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.button17);
             this.panel2.Controls.Add(this.button30);
             this.panel2.Controls.Add(this.button29);
             this.panel2.Controls.Add(this.button28);
@@ -264,7 +280,6 @@
             this.panel2.Controls.Add(this.button20);
             this.panel2.Controls.Add(this.button19);
             this.panel2.Controls.Add(this.button18);
-            this.panel2.Controls.Add(this.button17);
             this.panel2.Controls.Add(this.button16);
             this.panel2.Controls.Add(this.button15);
             this.panel2.Controls.Add(this.button14);
@@ -428,17 +443,6 @@
             this.button18.Text = "18";
             this.button18.UseVisualStyleBackColor = true;
             this.button18.Click += new System.EventHandler(this.dayButtonClick);
-            // 
-            // button17
-            // 
-            this.button17.Font = new System.Drawing.Font("Cambria", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button17.Location = new System.Drawing.Point(875, 186);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(146, 94);
-            this.button17.TabIndex = 16;
-            this.button17.Text = "17";
-            this.button17.UseVisualStyleBackColor = true;
-            this.button17.Click += new System.EventHandler(this.dayButtonClick);
             // 
             // button16
             // 
@@ -617,19 +621,31 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.dayButtonClick);
             // 
+            // button17
+            // 
+            this.button17.Font = new System.Drawing.Font("Cambria", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button17.Location = new System.Drawing.Point(875, 186);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(146, 94);
+            this.button17.TabIndex = 17;
+            this.button17.Text = "17";
+            this.button17.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(1064, 612);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MainForm";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "September 2016";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -669,7 +685,6 @@
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button14;
@@ -685,6 +700,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button17;
     }
 }
 
